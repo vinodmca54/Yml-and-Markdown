@@ -1,0 +1,50 @@
+# objects in yml
+nmae: vinod
+age: 25
+office: olive technology
+
+dimensions:
+  width: 3 metres
+  height: 8 metres
+  length: 12 metres
+  weight: 4 tonnes
+
+#Arrays
+
+list:
+  - Apple
+  - grap
+  - papaya
+
+#objects in array
+-Address : hyderabad
+ location: khairthabad
+ name: sample
+
+# Text blocks
+
+desc: >
+ Hello welcome to olive
+ this is ymal file
+ writing basic text blocks
+
+#Vertical pipe
+#The vertical pipe allows you to write your text on multiple lines, knowing that those multiple lines will be kept when the YAML is parsed.
+
+poem: |
+  this is vinod
+  from olive technology
+
+code: |
+  <div>
+    <h1>Things</h1>
+    <p>Things....</p>
+  </div>
+  
+
+
+
+
+
+
+
